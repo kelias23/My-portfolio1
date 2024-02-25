@@ -1,0 +1,184 @@
+h1{
+    text-align: center;
+    position: relative;
+    bottom: 45px;
+    font-family: "Sacramento", cursive;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+.bg
+     {
+        width: 1520px;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: 300% 300%;
+        background-image: linear-gradient(269deg, rgba(23, 21, 21, 0.792) 0%, rgba(16, 16, 15, 0.824) 25%, rgb(7, 7, 7) 51%, #0b0a0a 100%);
+        -webkit-animation: AnimateBG 4.6s ease infinite;
+                animation: AnimateBG 4.6s ease infinite;
+      }
+      
+      @-webkit-keyframes AnimateBG {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      
+      @keyframes AnimateBG {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+
+h2{
+    text-align: center;
+    position: relative;
+    bottom: -0px;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.text-color{
+    color: whitesmoke;
+}
+
+.b-example-divider{
+    width: 100%;
+    height: 20px;
+    background-color: rgba(1, 1, 1, 0.824);
+    border: solid  rgba(6, 6, 6, 0.819);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(10, 10, 10, 0.897), inset 0 0.125em 0.5em rgba(12, 11, 11, 0.784);
+}
+
+img{
+    left: 160px;
+    top: 200px;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 35%
+}
+
+.bc-1{
+    background-color: #0c0a0a;
+    width: 1520px;
+    height: 80vh;
+}
+.reward{
+    position: relative;
+    top: 53px;
+    left: 388px;
+    z-index: 2;
+}
+
+.reward-box{
+    position: relative;
+    top: 10px;
+    left: 380px;
+    border-radius: 25%;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(24, 23, 23, 0.79);
+}
+
+#skill{
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    bottom: 384px;
+    right: 249px;
+    color: darkgrey;
+}
+
+.paragrafi3{
+    position: relative;
+    bottom: 370px;
+    left: 360px;
+ }
+
+ li{
+    list-style: none;
+ }
+
+ .reward2{
+    position: relative;
+    bottom: 549px;
+    z-index: 2;
+    left: 960px
+ }
+
+ .reward-box2{
+    position: relative;
+    bottom: 590px;
+    left: 952px;
+    border-radius: 25%;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(24, 23, 23, 0.79);
+}
+
+.About-Me{
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    left: 360px;
+    color: darkgrey;
+    bottom: 633px;
+}
+ 
+.para2{
+    position: relative;
+    bottom: 370px;
+    left: 360px;
+}
+
+.para3{
+    position: relative;
+    bottom: 250px;
+    left: 580px;
+}
+
+.b-example-divider_k{
+    width: 100%;
+    height: 20px;
+    background-color: rgba(1, 1, 1, 0.824);
+    border: solid  rgba(6, 6, 6, 0.819);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(10, 10, 10, 0.897), inset 0 0.125em 0.5em rgba(12, 11, 11, 0.784);
+    position: relative;
+    bottom: 418px;
+}
+
+.bc-3{
+    background-color: #0c0a0a;
+    width: 1500px;
+    height: 200px;
+    position: relative;
+    bottom: 418px;
+}
+
+.contact{
+    position: relative;
+    position: relative;
+    bottom: 520px;
+    left: 690px;
+}
